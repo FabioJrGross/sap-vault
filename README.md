@@ -13,7 +13,7 @@ What this app does (hopefully when finished): This application will create a loc
 
 # ACKNOWLEDGMENTS
 
-- SAP already provides SSFS, which is the standard and correct solution for this problem.
+- SAP already provides SSFS (Secure Storage in the File System), which is the standard and correct solution for this problem.
 
 - This app may not be extremely secure, but its objective is to be a more secure alternative to storing passwords in plain text, not to provide Fort Knox-level security.
 
