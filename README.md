@@ -1,19 +1,28 @@
-# Local Secure SSO for Multiple SAP Connections (Learning Project)
+# SAP Vault – Local Secure SSO for Multiple SAP Connections
 
-This simple project has two objectives:
+**Educational project for learning Python** and providing a more secure way for SAP professionals to manage multiple system connections.
 
-  1. Help me learn Python.
+## Problem
+SAP support professionals often work with dozens of different client systems.  
+In some cases:
+- Companies do not provide SSFS (Secure Storage in the File System).
+- Security policies prohibit password reuse.
+- Users end up storing credentials in plain-text `.txt` files — which completely undermines security policies.
 
-  3. Help professionals who work with SAP organize and simplify their numerous connections to various SAP systems.
+## Solution
+This application aims to:
+- Create a locally stored **encrypted vault** on the user’s PC.
+- Protect it with a **master password**.
+- Allow quick connection to any SAP system without exposing stored passwords.
 
-The Problem: Especially for professionals working in support of SAP systems, it is common to have dozens of different connections to various client systems. Some companies lack an available SSFS and have complex security policies that prohibit password reuse across systems. In these cases, users often resort to storing their credentials in a plain-text .txt file on their computer, which completely negates all security policies.
+⚠️ **Disclaimer**  
+- SAP already provides the official solution: **SSFS (Secure Storage in the File System)**.  
+- This project is **not a replacement** for SSFS.  
+- Security is limited: the goal is to be **safer than plain text**, not to reach enterprise-level standards.
 
-What this app does (hopefully when finished): This application will create a locally stored, encrypted file on the user's PC. It will use a master password to secure a list of all SAP connections, allowing the user to connect to any system with a single click without revealing the passwords.
+## Objectives
+1. Learn Python by building a real-world inspired tool.  
+2. Help SAP professionals simplify the management of multiple connections.  
 
-
-# ACKNOWLEDGMENTS
-
-- SAP already provides SSFS (Secure Storage in the File System), which is the standard and correct solution for this problem.
-
-- This app may not be extremely secure, but its objective is to be a more secure alternative to storing passwords in plain text, not to provide Fort Knox-level security.
-
+## Status
+Currently under development.
