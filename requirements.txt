@@ -420,3 +420,7 @@ yapf==0.43.0
 yarl==1.20.1
 zipp==3.23.0
 zxing-cpp==2.2.0
+customtkinter
+pillow
+CTkListbox
+nicegui   # se for usar web_ui
