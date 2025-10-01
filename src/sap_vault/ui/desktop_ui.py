@@ -20,7 +20,7 @@ class App(ctk.CTk):
         ctk.set_appearance_mode("dark")
         ctk.set_default_color_theme("dark-blue")
 
-        self.after(100, self.ask_master_password)
+        #self.after(100, self.ask_master_password())
 
         self.title_frame = ctk.CTkFrame(self)
         self.title_frame.pack(side="top", fill="x")
@@ -109,6 +109,21 @@ class App(ctk.CTk):
         login_button = ctk.CTkButton(tabdev, text="Login", command=self.button_login)
         login_button.grid(row=3, column=1, columnspan=2, padx=10, pady=(10, 10), sticky="ew")
 
+    def button_lock(self):
+        print("Sessão bloqueada pelo usuário.")
+
+    def button_login(self):
+        print("Login efetuado!")
+
+    def button_new(self):
+        print("Novo sistema adicionado!")
+
+    def show_value(self, index, selected_option):
+        print(index, selected_option)
+
+    def ask_master_password(self):
+        pass
+    
 # ========================
 # POP-UP SENHA MESTRE
 # ========================
@@ -134,7 +149,7 @@ class MasterPasswordPopUp(ctk.CTkToplevel):
                                     button_text_color="white")
         
         master_password = dialog.get_input()
-        if answer:
+        #if answer:
 
 
         #super().__init__(master)

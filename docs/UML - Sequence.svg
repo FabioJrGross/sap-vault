@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="640pt" height="577pt" viewBox="0.00 0.00 640.00 577.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 572.8)">
+<title>SAPVault_Sequence</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-572.8 636.42,-572.8 636.42,4 -4,4"/>
+<!-- Usuario -->
+<g id="node1" class="node">
+<title>Usuario</title>
+<polygon fill="none" stroke="black" points="409.49,-568.8 348.38,-568.8 348.38,-532.8 409.49,-532.8 409.49,-568.8"/>
+<text xml:space="preserve" text-anchor="middle" x="378.93" y="-546.6" font-family="Times,serif" font-size="14.00">Usuário</text>
+</g>
+<!-- MasterPasswordPopUp -->
+<g id="node2" class="node">
+<title>MasterPasswordPopUp</title>
+<polygon fill="none" stroke="black" points="325.45,-480 150.42,-480 150.42,-444 325.45,-444 325.45,-480"/>
+<text xml:space="preserve" text-anchor="middle" x="237.93" y="-457.8" font-family="Times,serif" font-size="14.00">MasterPasswordPopUp (UI)</text>
+</g>
+<!-- Usuario&#45;&gt;MasterPasswordPopUp -->
+<g id="edge1" class="edge">
+<title>Usuario-&gt;MasterPasswordPopUp</title>
+<path fill="none" stroke="black" d="M348.08,-549.21C319.91,-547.01 278.93,-539.4 253.75,-514.8 247.37,-508.57 243.54,-499.84 241.26,-491.32"/>
+<polygon fill="black" stroke="black" points="244.7,-490.69 239.3,-481.58 237.84,-492.07 244.7,-490.69"/>
+<text xml:space="preserve" text-anchor="middle" x="309.34" y="-502.2" font-family="Times,serif" font-size="14.00">Digite senha mestre</text>
+</g>
+<!-- ConnectionManager -->
+<g id="node5" class="node">
+<title>ConnectionManager</title>
+<polygon fill="none" stroke="black" points="281.08,-213.6 150.79,-213.6 150.79,-177.6 281.08,-177.6 281.08,-213.6"/>
+<text xml:space="preserve" text-anchor="middle" x="215.93" y="-191.4" font-family="Times,serif" font-size="14.00">ConnectionManager</text>
+</g>
+<!-- Usuario&#45;&gt;ConnectionManager -->
+<g id="edge7" class="edge">
+<title>Usuario-&gt;ConnectionManager</title>
+<path fill="none" stroke="black" d="M378.93,-532.51C378.93,-514.99 378.93,-487.11 378.93,-463 378.93,-463 378.93,-463 378.93,-283.4 378.93,-258.56 376.71,-247.86 357.93,-231.6 339.87,-215.96 315.9,-207.09 292.81,-202.12"/>
+<polygon fill="black" stroke="black" points="293.53,-198.7 283.06,-200.27 292.23,-205.58 293.53,-198.7"/>
+<text xml:space="preserve" text-anchor="middle" x="454.55" y="-369" font-family="Times,serif" font-size="14.00">Seleciona sistema/conexão</text>
+</g>
+<!-- SapLoginService -->
+<g id="node8" class="node">
+<title>SapLoginService</title>
+<polygon fill="none" stroke="black" points="500.15,-213.6 387.72,-213.6 387.72,-177.6 500.15,-177.6 500.15,-213.6"/>
+<text xml:space="preserve" text-anchor="middle" x="443.93" y="-191.4" font-family="Times,serif" font-size="14.00">SapLoginService</text>
+</g>
+<!-- Usuario&#45;&gt;SapLoginService -->
+<g id="edge11" class="edge">
+<title>Usuario-&gt;SapLoginService</title>
+<path fill="none" stroke="black" d="M409.81,-549.03C462.93,-545.88 565.93,-531.01 565.93,-463 565.93,-463 565.93,-463 565.93,-283.4 565.93,-252.26 539.22,-231.26 510.8,-217.72"/>
+<polygon fill="black" stroke="black" points="512.24,-214.53 501.68,-213.68 509.4,-220.93 512.24,-214.53"/>
+<text xml:space="preserve" text-anchor="middle" x="599.18" y="-369" font-family="Times,serif" font-size="14.00">Clica Login</text>
+</g>
+<!-- AuthService -->
+<g id="node3" class="node">
+<title>AuthService</title>
+<polygon fill="none" stroke="black" points="257.92,-391.2 171.94,-391.2 171.94,-355.2 257.92,-355.2 257.92,-391.2"/>
+<text xml:space="preserve" text-anchor="middle" x="214.93" y="-369" font-family="Times,serif" font-size="14.00">AuthService</text>
+</g>
+<!-- MasterPasswordPopUp&#45;&gt;AuthService -->
+<g id="edge2" class="edge">
+<title>MasterPasswordPopUp-&gt;AuthService</title>
+<path fill="none" stroke="black" d="M233.39,-443.85C230.26,-432.04 226.03,-416.07 222.41,-402.41"/>
+<polygon fill="black" stroke="black" points="225.88,-401.84 219.94,-393.07 219.11,-403.64 225.88,-401.84"/>
+<text xml:space="preserve" text-anchor="middle" x="263.48" y="-413.4" font-family="Times,serif" font-size="14.00">login(senha)</text>
+</g>
+<!-- VaultStorage -->
+<g id="node4" class="node">
+<title>VaultStorage</title>
+<polygon fill="none" stroke="black" points="89.87,-302.4 0,-302.4 0,-266.4 89.87,-266.4 89.87,-302.4"/>
+<text xml:space="preserve" text-anchor="middle" x="44.93" y="-280.2" font-family="Times,serif" font-size="14.00">VaultStorage</text>
+</g>
+<!-- AuthService&#45;&gt;VaultStorage -->
+<g id="edge3" class="edge">
+<title>AuthService-&gt;VaultStorage</title>
+<path fill="none" stroke="black" d="M171.78,-369.21C127.26,-365.12 62.17,-356.05 46.39,-337.2 41.05,-330.82 39.37,-322.3 39.42,-314.01"/>
+<polygon fill="black" stroke="black" points="42.89,-314.47 40.28,-304.2 35.92,-313.85 42.89,-314.47"/>
+<text xml:space="preserve" text-anchor="middle" x="119.66" y="-324.6" font-family="Times,serif" font-size="14.00">Descriptografa metadados</text>
+</g>
+<!-- VaultStorage&#45;&gt;AuthService -->
+<g id="edge9" class="edge">
+<title>VaultStorage-&gt;AuthService</title>
+<path fill="none" stroke="black" d="M90.13,-285.69C122.17,-288.16 164.38,-296.31 192.93,-320.4 200.18,-326.51 205.1,-335.43 208.4,-344.15"/>
+<polygon fill="black" stroke="black" points="204.98,-344.95 211.33,-353.43 211.66,-342.84 204.98,-344.95"/>
+<text xml:space="preserve" text-anchor="middle" x="261.54" y="-324.6" font-family="Times,serif" font-size="14.00">Valida senha mestre</text>
+</g>
+<!-- VaultStorage&#45;&gt;ConnectionManager -->
+<g id="edge4" class="edge">
+<title>VaultStorage-&gt;ConnectionManager</title>
+<path fill="none" stroke="black" d="M38.82,-266.17C36.07,-255.1 34.96,-241.07 42.71,-231.6 55.19,-216.35 98.74,-207.59 139.05,-202.65"/>
+<polygon fill="black" stroke="black" points="139.27,-206.15 148.8,-201.53 138.47,-199.2 139.27,-206.15"/>
+<text xml:space="preserve" text-anchor="middle" x="118.32" y="-235.8" font-family="Times,serif" font-size="14.00">Carrega sistemas/conexões</text>
+</g>
+<!-- ConnectionObj -->
+<g id="node7" class="node">
+<title>ConnectionObj</title>
+<polygon fill="none" stroke="black" points="280.21,-36 199.66,-36 199.66,0 280.21,0 280.21,-36"/>
+<text xml:space="preserve" text-anchor="middle" x="239.93" y="-13.8" font-family="Times,serif" font-size="14.00">Connection</text>
+</g>
+<!-- VaultStorage&#45;&gt;ConnectionObj -->
+<g id="edge10" class="edge">
+<title>VaultStorage-&gt;ConnectionObj</title>
+<path fill="none" stroke="black" d="M36.3,-265.96C32.42,-255.83 29.42,-242.88 32.93,-231.6 47.17,-185.84 61.96,-178.35 94.1,-142.8 128.92,-104.29 175.59,-66.65 206.66,-43.17"/>
+<polygon fill="black" stroke="black" points="208.65,-46.06 214.56,-37.26 204.46,-40.45 208.65,-46.06"/>
+<text xml:space="preserve" text-anchor="middle" x="152.02" y="-147" font-family="Times,serif" font-size="14.00">Retorna senha (lazy)</text>
+</g>
+<!-- ConnectionManager&#45;&gt;VaultStorage -->
+<g id="edge8" class="edge">
+<title>ConnectionManager-&gt;VaultStorage</title>
+<path fill="none" stroke="black" d="M212.79,-213.93C209.83,-225.34 204.25,-239.71 193.93,-248.4 168.34,-269.95 131.88,-278.77 101.43,-282.17"/>
+<polygon fill="black" stroke="black" points="101.23,-278.67 91.6,-283.08 101.88,-285.64 101.23,-278.67"/>
+<text xml:space="preserve" text-anchor="middle" x="279.66" y="-235.8" font-family="Times,serif" font-size="14.00">get_password(connection)</text>
+</g>
+<!-- SystemObj -->
+<g id="node6" class="node">
+<title>SystemObj</title>
+<polygon fill="none" stroke="black" points="268.55,-124.8 211.32,-124.8 211.32,-88.8 268.55,-88.8 268.55,-124.8"/>
+<text xml:space="preserve" text-anchor="middle" x="239.93" y="-102.6" font-family="Times,serif" font-size="14.00">System</text>
+</g>
+<!-- ConnectionManager&#45;&gt;SystemObj -->
+<g id="edge5" class="edge">
+<title>ConnectionManager-&gt;SystemObj</title>
+<path fill="none" stroke="black" d="M213.99,-177.43C213.4,-167.15 213.64,-153.97 217.1,-142.8 217.95,-140.07 219.07,-137.35 220.37,-134.71"/>
+<polygon fill="black" stroke="black" points="223.26,-136.71 225.26,-126.3 217.21,-133.19 223.26,-136.71"/>
+<text xml:space="preserve" text-anchor="middle" x="251.52" y="-147" font-family="Times,serif" font-size="14.00">Cria System</text>
+</g>
+<!-- SystemObj&#45;&gt;ConnectionObj -->
+<g id="edge6" class="edge">
+<title>SystemObj-&gt;ConnectionObj</title>
+<path fill="none" stroke="black" d="M239.93,-88.65C239.93,-76.96 239.93,-61.19 239.93,-47.62"/>
+<polygon fill="black" stroke="black" points="243.43,-47.92 239.93,-37.92 236.43,-47.92 243.43,-47.92"/>
+<text xml:space="preserve" text-anchor="middle" x="321.77" y="-58.2" font-family="Times,serif" font-size="14.00">Cria Connection (lazy senha)</text>
+</g>
+<!-- SapLoginService&#45;&gt;SystemObj -->
+<g id="edge13" class="edge">
+<title>SapLoginService-&gt;SystemObj</title>
+<path fill="none" stroke="black" d="M387.22,-185.12C362.32,-179.66 333.21,-171.46 308.62,-159.6 307.51,-159.06 289.05,-145.13 271.56,-131.86"/>
+<polygon fill="black" stroke="black" points="273.88,-129.22 263.79,-125.96 269.64,-134.8 273.88,-129.22"/>
+<text xml:space="preserve" text-anchor="middle" x="369.28" y="-147" font-family="Times,serif" font-size="14.00">Estabelece login SAP</text>
+</g>
+<!-- SapLoginService&#45;&gt;ConnectionObj -->
+<g id="edge12" class="edge">
+<title>SapLoginService-&gt;ConnectionObj</title>
+<path fill="none" stroke="black" d="M444.9,-177.51C445.58,-147.86 442.36,-86.9 407.93,-54 391.51,-38.3 335.03,-28.89 292.04,-23.84"/>
+<polygon fill="black" stroke="black" points="292.44,-20.36 282.11,-22.73 291.66,-27.32 292.44,-20.36"/>
+<text xml:space="preserve" text-anchor="middle" x="503.54" y="-102.6" font-family="Times,serif" font-size="14.00">Usa dados da conexão</text>
+</g>
+</g>
+</svg>

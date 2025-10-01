@@ -36,7 +36,7 @@ class ConnectionManager:
 
 class Connection:
     def __init__(self, vault_storage):
-        self.name = vault_sorage.get_username()
+        self.name  = vault_sorage.get_username()
         self.mandt = vault_sorage.mandante
         self.usuer = vault_sorage.usuario
         
